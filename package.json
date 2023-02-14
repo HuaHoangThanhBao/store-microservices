@@ -6,6 +6,8 @@
   ],
   "scripts": {
     "start:core": "lerna exec --scope core -- yarn start:dev",
+    "start:detail-communication": "lerna exec --scope detail-communication -- yarn start:dev",
+    "start:payment-communication": "lerna exec --scope payment-communication -- yarn start:dev",
     "start:store": "lerna exec --scope store -- yarn dev",
     "start:store-admin": "lerna exec --scope store-admin -- yarn run dev",
     "start:store-detail": "lerna exec --scope store-detail -- yarn run dev",
